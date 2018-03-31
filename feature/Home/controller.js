@@ -6,8 +6,8 @@
             $http.get(api_url + "/products", {
                 headers: { 'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE1MTU1ODA2Njh9.ezqLNjvL6z18Kw5n1j_ak-fFEB5oBCSncGUUXF3zYAs'}
             }).then(function (response) {
-                $scope.data = response.data;
-                console.log(response.data);
+                console.log(response.result);
+                $scope.result = response.result;
             });
         });
 })();

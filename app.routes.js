@@ -7,7 +7,7 @@
 
   function config($stateProvider, $urlRouterProvider) {
     $stateProvider
-      .state('products', {
+      .state('home', {
         url: '/dashboard',
         controller: 'controller',
         templateUrl: '/feature/Home/home.html'
